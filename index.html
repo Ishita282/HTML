@@ -16,7 +16,7 @@
     </header>
 
     <section>
-        <h2>About Us</h2>
+        
         <p>
             Laundry Wallah / Laundry Mart is your trusted partner for clean, fresh, and well-cared-for clothes. 
             We provide a wide range of professional laundry services, ensuring top quality and timely delivery. 
@@ -44,7 +44,9 @@
 
     <section>
         <h2>Price List</h2>
-        <table>
+        <fieldset>
+        <legend><b>Our Prices</b></legend>
+        <table border="1" cellpadding="8" cellspacing="0">
             <tr>
                 <th>Service</th>
                 <th>Price</th>
@@ -62,14 +64,15 @@
                 <td>Rs 25.00</td>
             </tr>
         </table>
+    </fieldset>
     </section>
 
     <section>
         <h2>Book Now</h2>
         <form>
-            <input type="text" name="name" placeholder="Enter your name" required>
-            <input type="email" name="email" placeholder="Enter your email" required>
-            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            <input type="text" name="name" placeholder="Enter your name" required> Name:
+            <input type="email" name="email" placeholder="Enter your email" required> Email:
+            <input type="tel" name="phone" placeholder="Enter your phone number" required> Phone:
             <input type="submit" value="Submit">
         </form>
     </section>
